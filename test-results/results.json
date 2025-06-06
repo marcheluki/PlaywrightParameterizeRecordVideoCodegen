@@ -1,0 +1,524 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\playwright.config.js",
+    "rootDir": "C:/Users/marce/Documents/a_itc/6to/3Parcial/testingPepe/PlaywrightParameterizeRecordVideoCodegen/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/marce/Documents/a_itc/6to/3Parcial/testingPepe/PlaywrightParameterizeRecordVideoCodegen/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/marce/Documents/a_itc/6to/3Parcial/testingPepe/PlaywrightParameterizeRecordVideoCodegen/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.52.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "act1parameterize.spec.js",
+      "file": "act1parameterize.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "GitHub login attempt #0 (username=\"notARealUser123\")",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1747,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-06T05:00:38.092Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act1parameterize-GitHub-lo-0cebb-0-username-notARealUser123-\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act1parameterize-GitHub-lo-0cebb-0-username-notARealUser123-\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5aa7c8a3e8dda047a528-9ad6fe1540de2c239b5e",
+          "file": "act1parameterize.spec.js",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "GitHub login attempt #1 (username=\"anotherFakeUser\")",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1746,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-06T05:00:38.096Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act1parameterize-GitHub-lo-bf66e-1-username-anotherFakeUser-\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act1parameterize-GitHub-lo-bf66e-1-username-anotherFakeUser-\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5aa7c8a3e8dda047a528-57f6163e6ac7de9259d9",
+          "file": "act1parameterize.spec.js",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "GitHub login attempt #2 (username=\"\")",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1401,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-06T05:00:40.035Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act1parameterize-GitHub-login-attempt-2-username-\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act1parameterize-GitHub-login-attempt-2-username-\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5aa7c8a3e8dda047a528-22de5f4c99a517166ddf",
+          "file": "act1parameterize.spec.js",
+          "line": 41,
+          "column": 3
+        },
+        {
+          "title": "GitHub login attempt #3 (username=\"validUserButNoPwd\")",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1347,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-06T05:00:40.042Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act1parameterize-GitHub-lo-2dc08-username-validUserButNoPwd-\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act1parameterize-GitHub-lo-2dc08-username-validUserButNoPwd-\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5aa7c8a3e8dda047a528-fa9927d4237ea535518e",
+          "file": "act1parameterize.spec.js",
+          "line": 41,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "act2weather.spec.js",
+      "file": "act2weather.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Weather App Tests",
+          "file": "act2weather.spec.js",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display weather information for Paris",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3358,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-06-06T05:00:41.488Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act2weather-Weather-App-Te-12e3f-ather-information-for-Paris\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act2weather-Weather-App-Te-12e3f-ather-information-for-Paris\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f2461c0f08bfee39600-44d97b8963a6ea7a41be",
+              "file": "act2weather.spec.js",
+              "line": 4,
+              "column": 3
+            },
+            {
+              "title": "should handle 500 Internal Server Error",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3377,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-06-06T05:00:41.526Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act2weather-Weather-App-Te-21009-e-500-Internal-Server-Error\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act2weather-Weather-App-Te-21009-e-500-Internal-Server-Error\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4f2461c0f08bfee39600-98be102f39d7b530026e",
+              "file": "act2weather.spec.js",
+              "line": 37,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "act3codegen-github.spec.js",
+      "file": "act3codegen-github.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "GitHub login attempt with incorrect credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3773,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-06T05:00:44.874Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act3codegen-github-GitHub--65808--with-incorrect-credentials\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act3codegen-github-GitHub--65808--with-incorrect-credentials\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4d0584c2b7769cebb393-e4c0172a2ef4c3bc8eaf",
+          "file": "act3codegen-github.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "act4playwright-mercadolibre.spec.js",
+      "file": "act4playwright-mercadolibre.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Mercado Libre login test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 8325,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('[data-testid=\"user_id\"]')\nExpected string: \u001b[32m\"marce\"\u001b[39m\nReceived string: \u001b[31m\"\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveValue with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-testid=\"user_id\"]')\u001b[22m\n\u001b[2m    8 × locator resolved to <input rows=\"1\" value=\"\" type=\"email\" id=\"user_id\" autofocus=\"\" name=\"user_id\" placeholder=\"\" maxlength=\"120\" autocomplete=\"on\" autocorrect=\"off\" spellcheck=\"false\" aria-invalid=\"true\" data-testid=\"user_id\" autocapitalize=\"none\" class=\"andes-form-control__field\" aria-describedby=\"user_id-message\" suggestions=\"[object Object],[object Object],[object Object],[object Object]\"/>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('[data-testid=\"user_id\"]')\nExpected string: \u001b[32m\"marce\"\u001b[39m\nReceived string: \u001b[31m\"\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveValue with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-testid=\"user_id\"]')\u001b[22m\n\u001b[2m    8 × locator resolved to <input rows=\"1\" value=\"\" type=\"email\" id=\"user_id\" autofocus=\"\" name=\"user_id\" placeholder=\"\" maxlength=\"120\" autocomplete=\"on\" autocorrect=\"off\" spellcheck=\"false\" aria-invalid=\"true\" data-testid=\"user_id\" autocapitalize=\"none\" class=\"andes-form-control__field\" aria-describedby=\"user_id-message\" suggestions=\"[object Object],[object Object],[object Object],[object Object]\"/>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\n    at C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\tests\\act4playwright-mercadolibre.spec.js:28:29",
+                    "location": {
+                      "file": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\tests\\act4playwright-mercadolibre.spec.js",
+                      "column": 29,
+                      "line": 28
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 26 |\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[90m// Assert that the user ID field has the correct value\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 28 |\u001b[39m   \u001b[36mawait\u001b[39m expect(userIdField)\u001b[33m.\u001b[39mtoHaveValue(\u001b[32m'marce'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m   \u001b[90m// Optionally, verify the presence of a reCAPTCHA prompt (if that's part of the login process)\u001b[39m\n \u001b[90m 31 |\u001b[39m   \u001b[36mconst\u001b[39m recaptchaPrompt \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'text=Completa el reCAPTCHA.'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\tests\\act4playwright-mercadolibre.spec.js",
+                        "column": 29,
+                        "line": 28
+                      },
+                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('[data-testid=\"user_id\"]')\nExpected string: \u001b[32m\"marce\"\u001b[39m\nReceived string: \u001b[31m\"\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveValue with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('[data-testid=\"user_id\"]')\u001b[22m\n\u001b[2m    8 × locator resolved to <input rows=\"1\" value=\"\" type=\"email\" id=\"user_id\" autofocus=\"\" name=\"user_id\" placeholder=\"\" maxlength=\"120\" autocomplete=\"on\" autocorrect=\"off\" spellcheck=\"false\" aria-invalid=\"true\" data-testid=\"user_id\" autocapitalize=\"none\" class=\"andes-form-control__field\" aria-describedby=\"user_id-message\" suggestions=\"[object Object],[object Object],[object Object],[object Object]\"/>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 26 |\u001b[39m\n \u001b[90m 27 |\u001b[39m   \u001b[90m// Assert that the user ID field has the correct value\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 28 |\u001b[39m   \u001b[36mawait\u001b[39m expect(userIdField)\u001b[33m.\u001b[39mtoHaveValue(\u001b[32m'marce'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 29 |\u001b[39m\n \u001b[90m 30 |\u001b[39m   \u001b[90m// Optionally, verify the presence of a reCAPTCHA prompt (if that's part of the login process)\u001b[39m\n \u001b[90m 31 |\u001b[39m   \u001b[36mconst\u001b[39m recaptchaPrompt \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'text=Completa el reCAPTCHA.'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\tests\\act4playwright-mercadolibre.spec.js:28:29\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-06T05:00:44.926Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act4playwright-mercadolibre-Mercado-Libre-login-test\\video.webm"
+                    },
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act4playwright-mercadolibre-Mercado-Libre-login-test\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act4playwright-mercadolibre-Mercado-Libre-login-test\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\tests\\act4playwright-mercadolibre.spec.js",
+                    "column": 29,
+                    "line": 28
+                  }
+                },
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3055,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2025-06-06T05:00:54.615Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act4playwright-mercadolibre-Mercado-Libre-login-test-retry1\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\marce\\Documents\\a_itc\\6to\\3Parcial\\testingPepe\\PlaywrightParameterizeRecordVideoCodegen\\test-results\\act4playwright-mercadolibre-Mercado-Libre-login-test-retry1\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "flaky"
+            }
+          ],
+          "id": "64200e9951a076f6e9b6-6239ba11f129a492bada",
+          "file": "act4playwright-mercadolibre.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-06-06T05:00:37.043Z",
+    "duration": 21082.585,
+    "expected": 7,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 1
+  }
+}
